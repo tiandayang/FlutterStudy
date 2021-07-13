@@ -27,7 +27,6 @@ class TableViewCell extends StatelessWidget {
   TableViewCell(this._model);
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return new ListTile(
         leading: new CircleAvatar(
             child: new Text(_model.name[0])),
@@ -75,17 +74,11 @@ class CunstomTableViewCell extends StatelessWidget {
               ],
             ),
           ),
-
-          new Row(
-            children: <Widget>[
-              new Icon(
-                Icons.star,
-                color: Colors.red[500],
-              ),
-              new Text('41'),
-            ],
-          )
-
+          new Icon(
+            Icons.call,
+            color: Colors.red,
+          ),
+          new Text(_model.phone),
         ],
       ),
     );

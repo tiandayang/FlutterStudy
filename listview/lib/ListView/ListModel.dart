@@ -1,6 +1,6 @@
 class ListModel {
   final String name;
   final String age;
-
-  const ListModel({this.name, this.age});
+  final String phone;
+  const ListModel({this.name, this.age, this.phone});
 }

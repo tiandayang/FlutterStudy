@@ -28,11 +28,10 @@ class TableViewScaffold extends StatelessWidget {
 
   _models(){
     return <ListModel>[
-      const ListModel(name: "老刘",age: "26"),
-      const ListModel(name: "老二",age: "26"),
-      const ListModel(name: "大擦",age: "26"),
-      const ListModel(name: "老三",age: "26"),
-      const ListModel(name: "老吴",age: "26"),
+      const ListModel(name: "老刘",age: "26",phone: "12345679"),
+      const ListModel(name: "老二",age: "27",phone: "12345679"),
+      const ListModel(name: "大擦",age: "25",phone: "12345679"),
+      const ListModel(name: "老吴",age: "18",phone: "12345679"),
     ];
   }
 
