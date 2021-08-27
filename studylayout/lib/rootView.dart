@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:studylayout/util.dart';
 
 import 'animation/animationIndex.dart';
+import 'net/NetRquestDemo.dart';
 
 class RootView extends StatelessWidget {
   @override
@@ -31,6 +32,12 @@ class RootView extends StatelessWidget {
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => CustomAnimation()));
+              }),
+          unifyButton(
+              title: "网络请求",
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => NetRquestDemo()));
               }),
         ],
       ),

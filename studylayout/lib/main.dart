@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:studylayout/AppServer.dart';
+import 'package:studylayout/NetWork.dart';
 import 'package:studylayout/rootView.dart';
 
 void main() {
+  AppServer.netManager = NetWork();
   runApp(MyApp());
 }
 

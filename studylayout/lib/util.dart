@@ -5,7 +5,7 @@ Widget unifyButton({title, onPressed}) {
     margin: EdgeInsets.all(20),
     color: Colors.blue,
     height: 49,
-    child: FlatButton(
+    child: TextButton(
       child: Text(
         title,
         style: TextStyle(
@@ -50,7 +50,7 @@ Widget buttonWidget({title, onPressed}) {
     width: 300,
     height: 40,
     color: Colors.green,
-    child: FlatButton(
+    child: TextButton(
       child: Text(title, style: TextStyle(fontSize: 16, color: Colors.white)),
       onPressed: onPressed,
     ),
